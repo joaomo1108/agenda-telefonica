@@ -16,3 +16,4 @@ try {
 } catch (PDOException $e) {
     echo "<h2>Erro na conexão:</h2><p>" . $e->getMessage() . "</p>";
 }
+<?php echo '<p>Testando conexão com Firebird e agenda telefônica.</p>'; ?>
